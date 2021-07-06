@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { CSVReader } from 'react-papaparse';
 import './App.css';
 import axios from 'axios';
-axios.defaults.baseURL="http://localhost:5000/";
+axios.defaults.baseURL="https://node-csv-todb.herokuapp.com/";
 
 export default class App extends Component {
   state = {
